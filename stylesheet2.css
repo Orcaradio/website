@@ -17,7 +17,7 @@ nav li{
 
 nav a:link, nav a:visited{
   text-decoration: none;
-  font-family: "Lucida Sans Unicode", Lucida Grande, sans-serif;
+ font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-size: 150%;
   color: rgba(255, 255, 255, 1);
   background: rgba(0, 174, 255, 0);
@@ -29,7 +29,7 @@ nav a:link, nav a:visited{
 
 nav a:hover, nav a:active{
     text-decoration: none;
-  font-family: "Lucida Sans Unicode", Lucida Grande, sans-serif;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-size: 150%;
   color: rgba(255, 255, 255, 1);
     position: relative;
