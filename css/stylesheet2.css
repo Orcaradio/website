@@ -17,22 +17,18 @@ nav li{
 
 nav a:link, nav a:visited{
   text-decoration: none;
- font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-size: 150%;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;  font-size: 150%;
   color: rgba(255, 255, 255, 1);
   background: rgba(0, 174, 255, 0);
-    position: relative;
+  position: relative;
   display:block;
-  
-  
 }
 
 nav a:hover, nav a:active{
-    text-decoration: none;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-size: 150%;
+  text-decoration: none;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;  font-size: 150%;
   color: rgba(255, 255, 255, 1);
-    position: relative;
+  position: relative;
   display:block;
   border-bottom: 3px solid rgba(0, 174, 255, 0.7);
   
@@ -43,7 +39,7 @@ nav a:hover, nav a:active{
 
 
 .input {
-  display: block;
+  display: inline-block;
 }
 .input span {
   position: absolute;
@@ -58,13 +54,14 @@ nav a:hover, nav a:active{
   /* This gives a little gap between the cursor and the label */
   margin-left: 2px;
 }
-.input input, .input textarea, .input select {
+.input input, .input textarea, .input select{
   z-index: 0;
   padding: 6px;
   margin: 0;
   font: inherit;
   width: 100%;
   line-height: 17px;
+  display: "inline-block";
 }
 .input select {
   padding: 5px;
@@ -73,7 +70,13 @@ nav a:hover, nav a:active{
 }
 
 
-
+.botton{
+  z-index: 0;
+  padding: 6px;
+  margin: 0;
+  font: inherit;
+  line-height: 17px;
+}
 
 
 
@@ -144,6 +147,11 @@ tr#jobs>td{
       }
 table {border-spacing:25px; } 
 
+.navigation{
+  display:inline-block;width:87%;
+  vertical-align: top;
+}
+
 .navigation a img{
   height: 30px;
   width: 30px;
@@ -201,5 +209,11 @@ and (max-width : 1096px) {
   padding-left:2vw;
   padding-right: 2vw;
 }
+}
+
+.banner{
+  background-image: url(../images/homeimage.jpg);
+  background-repeat: no-repeat; 
+  background-size:100% auto;
 }
 
