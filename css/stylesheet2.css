@@ -24,6 +24,11 @@ nav a:link, nav a:visited{
   display:block;
 }
 
+.app_font{
+    font-family: "HelveticaNeue";
+    font-size: 200%;
+}
+
 nav a:hover, nav a:active{
   text-decoration: none;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;  font-size: 150%;
@@ -33,10 +38,6 @@ nav a:hover, nav a:active{
   border-bottom: 3px solid rgba(0, 174, 255, 0.7);
   
 }
-
-
-
-
 
 .input {
   display: inline-block;
@@ -148,7 +149,8 @@ tr#jobs>td{
 table {border-spacing:25px; } 
 
 .navigation{
-  display:inline-block;width:87%;
+  display:inline-block;
+  width:90%;
   vertical-align: top;
 }
 
@@ -163,11 +165,25 @@ table {border-spacing:25px; }
 
 
 #logo{
-  height: 85px;
-  width: 85px;
+  height: 105px;
+  width: 105px;
   float: right;
     vertical-align: top;
 }
+
+nav .navigation_social li{
+  padding-left:1.5vw;
+  padding-right: 1.5vw;
+}
+
+.logo_container{
+  display:inline-block;
+  width:105px;
+  margin-top:3px;
+  margin-left:5px;
+  float:left
+}
+
 @media only screen 
 and (max-width : 1096px) {
   nav a:link{
@@ -182,7 +198,10 @@ and (max-width : 1096px) {
   padding-right: 2vw;
 }
 }
-@media screen and (max-width : 860px){
+
+
+
+@media screen and (max-width : 920px){
   /*Make dropdown links appear inline*/
   ul {
     padding:0px;
@@ -195,25 +214,30 @@ and (max-width : 1096px) {
   nav a:link{
     font-size: 125%;
   }
-  .navigation a img{
-    height: 22px;
-    width: 22px;
-  }
+  
 
   #logo{
-    height: 65px;
-    width: 65px;
-    
+    height: 85px;
+    width: 85px;
   }
  nav li{
   padding-left:2vw;
   padding-right: 2vw;
+  }
+  .logo_container{
+    width: 90px;
+  }
 }
-}
+
 
 .banner{
   background-image: url(../images/homeimage.jpg);
   background-repeat: no-repeat; 
   background-size:100% auto;
 }
+
+.navigation a img{
+    height: 22px;
+    width: 22px;
+  }
 
