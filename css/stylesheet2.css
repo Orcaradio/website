@@ -1,9 +1,11 @@
 html {
-  font-family: sans-serif;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
    height:100%;
 }
+
+h1{font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;}
 
 body{height:100%;}
 
@@ -18,7 +20,7 @@ nav li{
 nav a:link, nav a:visited{
   text-decoration: none;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;  font-size: 150%;
-  color: rgba(255, 255, 255, 1);
+  color: rgba(125, 125, 125, 1);
   background: rgba(0, 174, 255, 0);
   position: relative;
   display:block;
@@ -32,11 +34,21 @@ nav a:link, nav a:visited{
 nav a:hover, nav a:active{
   text-decoration: none;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;  font-size: 150%;
-  color: rgba(255, 255, 255, 1);
+  color: rgba(125, 125, 125, 1);
   position: relative;
   display:block;
-  border-bottom: 3px solid rgba(0, 174, 255, 0.7);
+  border-bottom: 2px solid rgba(0, 0, 0, 1);
   
+}
+
+#socialmedia a:hover, a:active{
+text-decoration: none;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;  font-size: 150%;
+  color: rgba(125, 125, 125, 1);
+  position: relative;
+  display:block;
+  border-bottom: 0px;
+
 }
 
 .input {
@@ -113,6 +125,7 @@ left:7.3206%;
 } 
   
   
+  
 .contentgrey{
 background: rgba(155, 155, 155, 0.7);
 color: rgba(255, 255, 255, 1);
@@ -124,7 +137,7 @@ width: 100%;
 }
 .contentwhite {
 background: rgba(255, 255, 255, 1);
-color: rgba(0, 174, 255, 1);
+color: rgba(0, 0, 0, 1);
 height: 36vw;
 max-height:450px;
 min-width: 200px;
@@ -234,7 +247,11 @@ and (max-width : 1096px) {
   background-image: url(../images/homeimage.jpg);
   background-repeat: no-repeat; 
   background-size:100% auto;
-}
+height: 150vw;
+max-height:800px; 
+min-width: 200px; 
+width: 100%;
+}  
 
 .navigation a img{
     height: 22px;
